@@ -10,7 +10,7 @@ nativeUtils.withCrossLinuxArm64()
 
 nativeUtils.wpi.addWarnings()
 // Skip warnings as errors, as linux throws pedantic warnings
-//nativeUtils.wpi.addWarningsAsErrors()
+nativeUtils.wpi.addWarningsAsErrors()
 nativeUtils.wpi.addReleaseSymbolGeneration()
 
 nativeUtils.setSinglePrintPerPlatform()
